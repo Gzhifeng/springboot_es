@@ -5,6 +5,7 @@ import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
+import org.example.util.Utils;
 import org.junit.After;
 import org.junit.Before;
 
@@ -38,14 +39,13 @@ public class ElasticsearchClient {
     }
 
     @After
-    public void tearDown() {
+    public void tearDown() throws Exception {
         if (transportClient != null) {
             transportClient.close();
         }
     }
 
     protected void println(SearchResponse searchResponse) {
-
+        Utils.println(searchResponse);
     }
-
 }

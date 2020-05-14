@@ -43,9 +43,9 @@ public class IndexAPI extends ElasticsearchClientBase {
         map.put("user", "li");
         map.put("postDate", "2019-01-30");
         map.put("message", "trying out Elasticsearch");
-        transportClient.prepareIndex("twitter", "tweet", "2")
-                .setSource(map);
-        System.out.println("testForUseMap twitter 创建成功");
+        IndexResponse indexResponse = transportClient.prepareIndex("twitter", "tweet", "2")
+                .setSource(map).get();
+        System.out.println("testForUseMap: " + indexResponse );
     }
 
     /**

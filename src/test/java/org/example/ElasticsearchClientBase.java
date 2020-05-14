@@ -10,8 +10,6 @@ public class ElasticsearchClientBase extends ElasticsearchClient {
                 .setTypes("tweet")
                 .setQuery(queryBuilder)
                 .get();
-
-        println(searchResponse);
         return searchResponse;
     }
 

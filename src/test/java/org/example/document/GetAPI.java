@@ -12,7 +12,7 @@ public class GetAPI extends ElasticsearchClientBase {
     @Test
     public void testForGetAPI() {
         GetResponse fields = transportClient
-                .prepareGet("twitter", "tweet", "4")
+                .prepareGet("twitter", "tweet", "2")
                 .get();
         if (fields.isExists()) {
             System.out.println(fields.getSource());
