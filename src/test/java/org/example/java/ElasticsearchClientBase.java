@@ -1,4 +1,4 @@
-package org.example;
+package org.example.java;
 
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.index.query.QueryBuilder;

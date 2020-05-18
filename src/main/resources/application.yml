@@ -1,0 +1,14 @@
+server:
+  port: 8080
+#elasticsearch 配置
+#spring:
+#  data:
+#    elasticsearch:
+#      cluster-name: elasticsearch_ganzhifeng
+#      cluster-nodes: 127.0.0.1:9300
+elasticsearch:
+  ip: 127.0.0.1
+  port: 9300
+  pool: 5
+  cluster:
+    name: elasticsearch_ganzhifeng

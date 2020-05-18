@@ -1,4 +1,4 @@
-package org.example.search;
+package org.example.java.search;
 
 import org.elasticsearch.action.search.ClearScrollRequestBuilder;
 import org.elasticsearch.action.search.ClearScrollResponse;
@@ -8,7 +8,7 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.sort.FieldSortBuilder;
 import org.elasticsearch.search.sort.SortOrder;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 /**

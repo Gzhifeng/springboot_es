@@ -1,7 +1,7 @@
-package org.example.document;
+package org.example.java.document;
 
 import org.elasticsearch.action.get.GetResponse;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 /**

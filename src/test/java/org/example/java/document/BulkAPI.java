@@ -1,9 +1,9 @@
-package org.example.document;
+package org.example.java.document;
 
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
 import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.common.xcontent.XContentBuilder;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 import java.io.IOException;

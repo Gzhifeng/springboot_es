@@ -1,7 +1,7 @@
-package org.example.document;
+package org.example.java.document;
 
 import org.elasticsearch.action.delete.DeleteResponse;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 /**

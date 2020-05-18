@@ -1,11 +1,10 @@
-package org.example.search;
+package org.example.java.search;
 
 import org.elasticsearch.action.search.MultiSearchResponse;
 import org.elasticsearch.action.search.SearchRequestBuilder;
-import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 /**

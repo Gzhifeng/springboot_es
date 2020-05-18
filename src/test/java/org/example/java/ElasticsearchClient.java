@@ -1,15 +1,13 @@
-package org.example;
+package org.example.java;
 
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
-import org.example.util.Utils;
+import org.example.java.util.Utils;
 import org.junit.After;
 import org.junit.Before;
-
-import java.net.InetSocketAddress;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

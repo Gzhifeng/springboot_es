@@ -1,10 +1,10 @@
-package org.example.document;
+package org.example.java.document;
 
 import org.elasticsearch.action.ActionListener;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.reindex.BulkByScrollResponse;
 import org.elasticsearch.index.reindex.DeleteByQueryAction;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 /**

@@ -1,9 +1,9 @@
-package org.example.query;
+package org.example.java.query;
 
 import org.elasticsearch.common.unit.Fuzziness;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
-import org.example.ElasticsearchClientBase;
+import org.example.java.ElasticsearchClientBase;
 import org.junit.Test;
 
 import static org.elasticsearch.index.query.QueryBuilders.*;
